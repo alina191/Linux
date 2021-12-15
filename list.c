@@ -4,6 +4,7 @@
 
 struct ListItem {
 int Value;
+int b;
 struct ListItem* Next;
 };
 

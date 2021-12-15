@@ -13,6 +13,7 @@ $(CROSS_COMPILE)gcc -fpic -c list.c matrix.c
 $(CROSS_COMPILE)gcc -shared list.o matrix.o -o dynamic.o
 $(CROSS_COMPILE)gcc main.c list.c matrix.c -lm -o app.out
 $(CROSS_COMPILE)gcc main.c list.c matrix.c -lm -o app.out
+$(CROSS_COMPILE)gcc main.c list.c matrix.c -lm -o app.out
 echo $(ARCH)
 echo$(CROSS_COMPILE)
 
